@@ -13,11 +13,11 @@
   padding: 10px;
   margin: 10px 0px;
   color: rgb(0, 213, 255);
-  width: 274px;
-  height: 82px;
+  width: 340px;
+  height: 60px;
   max-width: none;
   background-repeat: no-repeat;
-  background-size: 274px 82px;
+  background-size: 340px 60px;
 }
 
 .header-top-menu {
@@ -48,7 +48,6 @@
 
     &:hover {
         color: $c-pinky !important;
-        background: rgba(0, 0, 0, 0.7) !important;
         border-radius: 4px;
       }
   }
@@ -71,6 +70,7 @@
 .header-nav {
   display: inline-block;
   margin-bottom: 10px;
+  padding-top: 40px;
   font-family: 'Dosis', sans-serif;
   display: -webkit-flex; /* Safari */
   -webkit-justify-content: space-around; /* Safari 6.1+ */
