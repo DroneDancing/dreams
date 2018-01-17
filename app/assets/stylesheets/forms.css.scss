@@ -2,7 +2,7 @@
   @extend %no_select;
   display: block;
   padding: 13px 10px;
-  color: #fff;
+  color: $cdd-darkteal;
   border: none;
   border-radius: 5px;
   text-align: center;
@@ -104,9 +104,15 @@ input[type=checkbox] {
 
 .camp-button {
   @extend %button;
+  color: $cdd-darkteal;
   width: 180px;
   margin-top: 15px;
   cursor: pointer;
+  background: $cdd-teal;
+  &:hover {
+    background: darken($cdd-teal, 10%);
+    color: $cdd-darkteal;
+  }
 }
 
 .field_with_errors {
@@ -114,7 +120,7 @@ input[type=checkbox] {
   input[type=number],
   input[type=email],
   textarea {
-    border: 1px solid $c-pinky;
+    border: 1px solid $cdd-red;
     border-radius: 5px;
   }
 }

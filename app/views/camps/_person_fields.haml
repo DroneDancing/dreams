@@ -10,16 +10,6 @@
       = f.text_field :email, class: 'form-control'
     - else
       = f.text_field :email, class: 'form-control', readonly: true
-    = f.label :phone_number
-    - if (@can_edit)
-      = f.text_field :phone_number, class: 'form-control'
-    - else
-      = f.text_field :phone_number, class: 'form-control', readonly: true
-    = f.label :background
-    - if (@can_edit)
-      = f.text_field :background, class: 'form-control'
-    - else
-      = f.text_field :background, class: 'form-control', readonly: true
     - if Rails.configuration.x.firestarter_settings["person_early_arrival"]
       .early-arrival
         = f.label :needs_early_arrival

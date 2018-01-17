@@ -32,6 +32,14 @@ $c-gray_dark: #818181;
 
 $c-black: #000000;
 
+$cdd-darkteal: #1A535C;
+$cdd-teal: #4ECDC4;
+$cdd-cream: #F7FFF7;
+$cdd-red: #FF6B6B;
+$cdd-red-darker: #db5959;
+$cdd-red-darkest: #ce5252;
+$cdd-yellow: #FFE66D;
+
 $header-font-color: $c-black;
 
 $header-font-color: $c-gray_dark;
@@ -95,8 +103,8 @@ $font-weight-bold: 700;
   outline: none;
 }
 
-::-moz-selection { background: $c-pinky; color: white; }
-::selection { background: $c-pinky; color: white; }
+::-moz-selection { background: $cdd-red; color: white; }
+::selection { background: $cdd-red; color: white; }
 
 html, body {
   min-height: 100vh;
@@ -224,7 +232,7 @@ address {
 }
 
 .label-success {
-  background-color: $c-pinky;
+  background-color: $cdd-red;
 }
 
 .label-info {
@@ -233,20 +241,20 @@ address {
 
 
 .btn-success {
-  background-color: $c-pinky;
+  background-color: $cdd-red;
   border: none;
 
   &:hover {
-    background-color: $c-pinky-darker !important;
-    border-color: $c-pinky-darker;
+    background-color: $cdd-red-darker !important;
+    border-color: $cdd-red-darker;
   }
   &:active {
-    background-color: $c-pinky-darkest !important;
-    border-color: $c-pinky-darker;
+    background-color: $cdd-red-darkest !important;
+    border-color: $cdd-red-darker;
   }
   &:focus {
-    background-color: $c-pinky-darkest !important;
-    border-color: $c-pinky-darker;
+    background-color: $cdd-red-darkest !important;
+    border-color: $cdd-red-darker;
   }
 }
 

@@ -53,6 +53,9 @@ gem 'kaminari'
 # Filtering
 gem 'filterrific'
 
+# Autocomplete
+gem 'rails-jquery-autocomplete'
+
 # Images at S3
 gem 'paperclip'
 gem 'aws-sdk', '< 2'

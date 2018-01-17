@@ -4,13 +4,13 @@ defaults: &defaults
   description: true
   electricity: true
   light: true
-  fire: true
+  fire: false
   noise: true
   nature: false
   moop: false
   plan: false
   cocreation: true
-  neighbors: true
+  neighbors: false
   recycling: false
   budgetplan: true
   seeking_members: true

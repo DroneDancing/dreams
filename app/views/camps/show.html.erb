@@ -68,7 +68,7 @@
             <% if defined? (@mainImage) %>
                 <div class='dream_main_image' style='background: linear-gradient(rgba(20,20,20, .7),rgba(20,20,20, .7)),url("<%= @mainImage %>") no-repeat center center fixed'>
             <% else %>
-                <div class='dream_main_image' style="background: linear-gradient(rgba(20,20,20, .7),rgba(20,20,20, .7)),url('<%= @mainImage %>') no-repeat center center fixed">
+                <div class='dream_main_image'>
             <% end %>
             <div class="dream_main_text">
                 <div class="center-dream">
@@ -192,13 +192,13 @@
             <% if current_user %>
                 <% if @camp.creator != current_user %>
                     <% if (not @camp.users.where(id: current_user.id).exists?) %>
-                        <%= button_to t(:add_my_name), :join_camp, {class: 'btn btn-success button join-dream-button'} %>
+                        <%= button_to t(:add_my_name), :join_camp, {class: 'btn camp-button'} %>
                     <% else %>
-                        <%= button_to t(:added_my_name), :join_camp, {class: 'btn btn-success button join-dream-button', disabled: true} %>
+                        <%= button_to t(:added_my_name), :join_camp, {class: 'btn camp-button', disabled: true} %>
                     <% end %>
                 <% end %>
             <% else %>
-                <%= button_to t(:add_my_name), :join_camp, {class: 'btn btn-success button join-dream-button'} %>
+                <%= button_to t(:add_my_name), :join_camp, {class: 'btn camp-button'} %>
             <% end %>
         <% end %>
 

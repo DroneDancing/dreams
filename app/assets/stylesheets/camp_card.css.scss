@@ -6,7 +6,7 @@
   margin-bottom: 20px;
 
   &:hover {
-    background: #d7e6f4;
+    background: $cdd-cream;
   }
 
   @media (max-width: 600px) {
@@ -34,7 +34,7 @@ p {
 .creation-info {
   .dream-point-of-contact {
     .glyphicon-envelope {
-      color: $c-pinky;
+      color: $cdd-red;
       vertical-align: middle;
     }
   }
@@ -46,7 +46,7 @@ p {
     }
 
     .glyphicon-globe {
-      color: $c-pinky;
+      color: $cdd-red;
       vertical-align: middle;
     }
   }

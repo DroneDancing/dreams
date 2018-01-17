@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery-ui
+//= require autocomplete-rails
 //= require_tree .
 //= require blueimp-gallery-all
 //= require filterrific/filterrific-jquery
@@ -21,6 +22,8 @@
 //= require best_in_place.jquery-ui
 //= require jquery.purr
 //= require best_in_place.purr
+
+
 $(function() {
 	//Fix the hidden element issue on some chrome browsers
   	window.scroll(0,1);
@@ -42,7 +45,7 @@ $(function() {
 		$('.loading-new-dream').fadeIn();
 		setInterval(function(){
 			$('.loading-new-dream').fadeOut('fast', function() {
-				$(this).text("זה לרוב לוקח כ-8 שניות. קח נשימה עמוקה בזמן שאנחנו מכינים את הפלאייה עבורך. יוצרים לך תיקייה בדרייב ומסנכרנים...").fadeIn('fast'); 
+				$(this).text("Loading ...").fadeIn('fast'); 
 			})}, 4000);
 	});
 });

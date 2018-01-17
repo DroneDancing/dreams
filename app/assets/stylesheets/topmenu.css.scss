@@ -13,23 +13,23 @@
   padding: 10px;
   margin: 10px 0px;
   color: rgb(0, 213, 255);
-  width: 340px;
-  height: 60px;
+  width: 336px;
+  height: 101px;
   max-width: none;
   background-repeat: no-repeat;
-  background-size: 340px 60px;
+  background-size: 336px 101px;
 }
 
 .header-top-menu {
   display: inline-block;
   font-size: 52px;
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Ropa Sans', sans-serif;
   weight: bold;
   background: none !important;
 }
 
 .coverphoto-panel {
-  background-color: rgba(255,255,255,0.4);
+  background-color: $cdd-red;
 }
 
 .top_menu {
@@ -42,12 +42,13 @@
   a {
     color: white;
     text-decoration: none;
-    background: rgba(235, 20, 120, 0.62);
+    background: $cdd-red;
     padding: 3px 8px;
     margin: 0 3px;
 
     &:hover {
-        color: $c-pinky !important;
+        color: $cdd-yellow !important;
+        background: $cdd-red-darker;
         border-radius: 4px;
       }
   }
@@ -70,8 +71,8 @@
 .header-nav {
   display: inline-block;
   margin-bottom: 10px;
-  padding-top: 40px;
-  font-family: 'Dosis', sans-serif;
+  padding-top: 10px;
+  font-family: 'Ropa Sans', sans-serif;
   display: -webkit-flex; /* Safari */
   -webkit-justify-content: space-around; /* Safari 6.1+ */
   display: flex;
@@ -85,6 +86,10 @@
 
   .dropdown-menu>li>a {
     color: white;
+    
+    &:hover {
+      background: $cdd-red-darker;        
+    }  
   }
 
 }

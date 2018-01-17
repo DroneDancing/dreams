@@ -35,19 +35,19 @@
 
     .name {
       font-size: 16px;
-      font-weight: normal;
-      color: $c-pinky;
+      font-weight: bold;
+      color: $cdd-darkteal;
       margin: 0.5em 0.5em;
       }
   }
 
   .panel-info > .panel-heading {
-    background-color: $c-pinky;
+    background-color: $cdd-red;
     color: white;
   }
 
   .panel-default > .panel-heading {
-    background-color: white;
+    background-color: $cdd-cream;
     color: black;
     font-weight: bold;
   }
@@ -68,13 +68,18 @@ $main-image-height: 550px;
   width: 100%;
   height: $main-image-height;
 
-  background-color: $c-pinky;
+  background-color: $cdd-darkteal;
 }
 
 .join-dream-button {
   padding: 13px 20px;
   margin: 2em 0;
-}
+  background: $cdd-teal;
+    &:hover {
+      background: darken($cdd-teal, 10%);
+      color: $cdd-darkteal;
+    }
+  }
 
 .dream_main_text {
   position: relative;
@@ -215,7 +220,7 @@ $main-image-height: 550px;
 
   a {
     text-decoration: underline;
-    color: $c_pinky;
+    color: $cdd-red;
   }
 }
 
@@ -403,7 +408,7 @@ body {
   display: block;
 
   &:hover {
-    background-color: rgba(235, 20, 120, 0.08);
+    background-color: $cdd-red;
     cursor: pointer;
   }
 
@@ -413,7 +418,7 @@ body {
 #camp-form {
   a {
     text-decoration: underline;
-    color: $c_pinky;
+    color: $cdd-red;
   }
 }
 
@@ -424,7 +429,7 @@ body {
 }
 
 .pink-div {
-  color: $c_pinky;
+  color: $cdd-red;
 }
 
 .program {
