@@ -32,23 +32,19 @@ en:
     keys)
   welcome_guest_title: Welcome to the Dream Machine
   welcome_guest_text_html: 
-    <p>Drone Dancing gathers artists, thinkers, doers and makers to realise ideas about how the future may be in 30 years from now.
-    In this open call, we welcome any individual or group who want to participate in the project. Participation will be self reliant and collaborative, meaning that you are expected to work well together with others.
+    <p>
+    Greetings! You have entered the participatory realm of Drone Dancing, our Open Call to co-create your imaginary future(s). This website is the Dream Machine, where you can post, explore, join and fund projects for the Drone Dancing Exhibition.    
     </p>
     <p>
-    Participants can apply for grants to finance material and transportation costs of your project, through a self curated process.
-    You can create a art installation, hold a workshop, a lecture, a performance or something completely different. We are interested in experiencing unique views on the future, and it is up to you to imagine what parts of the future you want to represent.
-    Welcome!
+    Drone Dancing is a multi format social art event exploring what it means to be human 29 years from now - in 2047. It takes place at Färgfabriken Stockholm, Sweden, September 1-16, 2018. 
     </p>
   welcome_user_title: Welcome to the Dream Machine
   welcome_user_text_html: 
-    <p>Drone Dancing gathers artists, thinkers, doers and makers to realise ideas about how the future may be in 30 years from now.
-    In this open call, we welcome any individual or group who want to participate in the project. Participation will be self reliant and collaborative, meaning that you are expected to work well together with others.
+    <p>
+    Greetings! You have entered the participatory realm of Drone Dancing, our Open Call to co-create your imaginary future(s). This website is the Dream Machine, where you can post, explore, join and fund projects for the Drone Dancing Exhibition.    
     </p>
     <p>
-    Participants can apply for grants to finance material and transportation costs of your project, through a self curated process.
-    You can create a art installation, hold a workshop, a lecture, a performance or something completely different. We are interested in experiencing unique views on the future, and it is up to you to imagine what parts of the future you want to represent.
-    Welcome!
+    Drone Dancing is a multi format social art event exploring what it means to be human 29 years from now - in 2047. It takes place at Färgfabriken Stockholm, Sweden, September 1-16, 2018. 
     </p>
   footer_left_html: Metaburn is a participatory community where we co-create events
     and gatherings as prototypes of our dreams. It is an empty container, open to
@@ -441,8 +437,8 @@ en:
   needed_to_fully_fund_realcurrency: Needed to fully fund in NIS
   your_available_grants: Your available shares
   youre_out_of_grants: You're out of shares. Hats off!
-  add_my_name: Add my name
-  added_my_name: Your name was added
+  add_my_name: Add me to the swarm
+  added_my_name: Following swarm
   delete_this_creation: Delete this creation
   archive_this_creation: Archive this creation
   delete_are_you_sure: Are you sure?
@@ -488,8 +484,8 @@ en:
   security_cant_change_images_you_dont_own: One cannot change image he dont own - hacker come join us
   dream_not_found: The Dream you were looking for doesn't exist. Would you like to
     create a new Dream?
-  join_dream: Sweet! You just sent your email adress to the creator.
-  join_errors_login: You need to be logged in to add your email to the list.
+  join_dream: You were added to this dream swarm! If the dream owner accepts, you will get shares to participate in public granting.
+  join_errors_login: You need to be logged in to add yourself to the swarm.
   join_already_sent: Nice! You've already sent your email to the creator.
   yes_text: Yesss
   no_text: Nope
