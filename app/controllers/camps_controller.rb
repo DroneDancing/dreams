@@ -63,9 +63,15 @@ class CampsController < ApplicationController
     # camp by the same number of grants.
 
     # Decrement user grants. Check first if granting more than needed.
-    granted = params['grants'].to_i
+    granted = 1
     if(granted <= 0)
       flash[:alert] = "#{t:cant_send_less_then_one}"
+      redirect_to camp_path(@camp) and return
+    end
+
+    @existing_grants = Grant.where(user_id: current_user.id, camp_id: @camp.id)
+    if(@existing_grants.count > 0)
+      flash[:alert] = "#{t:cant_send_more_than_one}"
       redirect_to camp_path(@camp) and return
     end
 

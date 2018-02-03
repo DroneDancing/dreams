@@ -381,7 +381,7 @@ en:
   open_dream_for_guide_edit: Open dream for guide editing
   open_dream_for_guide_edit_view_only: Lock dream for View only
   give_grants: Give share
-  i_gift_thee_grants: Give a share
+  i_gift_thee_grants: Give one share
   no_granting_yet: No granting for this dream yet!
   donate_title: Oh Wow! You're about to make dreams reality...
   donate_content: There are many ways to help a dream come true, yet here you are
@@ -472,6 +472,7 @@ en:
   reset_pass_wont_change: Your password won't change until you access the link above
     and create a new one.
   cant_send_less_then_one: One cannot send less than 1 share
+  cant_send_more_than_one: You've already granted a share to this dream. You cannot send more than one share to the same dream.
   dream_need_to_have_max_budget: Dream needs to have maximum budget. please contact
     dreamer or dream guides
   security_more_grants: Security error cannot grant more then available grants. you

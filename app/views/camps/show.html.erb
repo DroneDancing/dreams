@@ -11,10 +11,6 @@
             <p><%=t :donate_content %></p>
             <div>
                 <span>
-                    <b> <%=t :donate_text %>
-                      <%= number_field_tag 'grants', nil, in: 0..current_user.grants, step: 1, value: 1, class:'donate-value form-control' %>
-                      <%=t :coins_text %>
-
                     </b>
                 </span>
               <span class='coins-left' style='float: <%=t :reverse_direction %>'><%=t :coins_left %> <%= current_user.grants %></span>
