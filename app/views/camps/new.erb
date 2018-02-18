@@ -8,6 +8,9 @@
     });
 </script>
 
+<div class="main_content_fixed">
+
+
 <%= simple_form_for @camp, :html => {:dir => I18n.t(:html_direction), id: 'createDreamForm'} do |form| %>
   <div class="header-heading col-xs-12" style='float: <%= I18n.t(:lang_direction) %>'>
     <%= t("form_basics_headline") %>
@@ -64,3 +67,5 @@
     <%= t('browser_title_tag') %>
   </title>
 <% end %>
+
+</div>

@@ -4,10 +4,12 @@ a:hover {
 
 .main_content {
   @extend %holder;
+}
+
+.main_content_fixed {
+  max-width: 1120px;
+  margin: 0 auto;
   padding: 20px 2px;
-  color: rgb(0,0,0);
-  width: 100%;
-  margin-bottom: 20px;
 }
 
 body {
@@ -16,7 +18,8 @@ body {
 }
 
 .notice {
-  margin-bottom: 20px;
+  max-width: 1120px;
+  margin: 0px auto 10px auto;
   color: rgb(105, 117, 57);
   background: rgb(223, 239, 215);
   padding: 10px;
@@ -25,10 +28,10 @@ body {
 }
 
 .alert {
-  margin-bottom: 20px;
+  max-width: 1120px;
+  margin: 20px auto 0 auto;
   color: rgb(187, 76, 72);
   background: rgb(243, 222, 222);
-  margin-bottom: 20px;
   padding: 10px;
   border: 1px solid rgb(239, 211, 215);
   border-radius: 5px;

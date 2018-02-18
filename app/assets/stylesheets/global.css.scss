@@ -75,9 +75,9 @@ $font-weight-semibold: 600;
 $font-weight-bold: 700;
 
 %holder {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: 0 .8em;
+  color: rgb(0,0,0);
+  width: 100%;
+  padding: 0;
 }
 
 %textOverflowEllipsis {
@@ -204,6 +204,7 @@ address {
 }
 
 .notice {
+  z-index: 10;
   color: rgb(105, 117, 57);
   background: rgb(223, 239, 215);
   padding: 10px;
@@ -212,6 +213,7 @@ address {
 }
 
 .alert {
+  z-index: 10;
   color: rgb(187, 76, 72);
   background: rgb(243, 222, 222);
   margin-bottom: 20px;

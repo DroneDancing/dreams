@@ -1,3 +1,4 @@
+<div class="main_content_fixed">
 
 <% if (current_user && (current_user == @camp.creator)) %>
   <% @can_edit = true %>
@@ -46,3 +47,5 @@
 <% else %>
     <p class="alert">Only the original creator can edit this page.</p>
 <% end %>
+
+</div>

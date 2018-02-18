@@ -1,19 +1,62 @@
-<div class="row">
-  <div class="col-md-8">
-    <h1 style="font-size:22px; font-weight:bold;">What is this?</h1>
-    <br>
-    <p>Where do YOU think we are 29 years from now? Where do you WANT society to be at that time?</p>
+<% content_for(:head) do %>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.css" integrity="sha256-bwgO9MoPVvotukQtJ5uNfYOP7mNouND7Cbhd+MJvZX0=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.js" integrity="sha256-jwgjxc4j6/dE2aVSFNmEYv4W7+PEL4VChy404By79Is=" crossorigin="anonymous"></script>
+<% browser_title = t(:browser_title_tag) %>
+<title><%= browser_title %></title>
+<meta property="og:title" content="<%= t :browser_title_tag %>" />
+<meta property="og:description" content="<%= t :main_sharing_description %>" />
+<meta property="og:image" content="<%= ENV['APP_URL'] %>assets/coverphoto.png" />
+<script>
+  $(document).ready(function() {
+    $('#fullpage').fullpage({
+      slidesNavigation: false,
+      anchors:['slide1', 'slide2', 'slide3'],
+      fixedElements: '#header',
+      responsiveWidth: 600,
+      verticalCentered: false,
+    });
+  });
+</script>
+<% end %>
 
-    <p>Whether you want to take the visitors into a dystopian scenario they wouldn't have imagined, show the exciting implications of technologies not yet invented, or something within the theme we haven't thought of, we invite you to use the blank canvas of over 500m2 as your platform of co-creative expression.</p>
+<% bg_image1_path = image_path("takvningen.jpg") %>
+<% bg_image2_path = image_path("embryo-lasers.jpg") %>
+<% bg_image3_path = image_path("bubble-x-balloon.jpg") %>
 
-    <p>We welcome you to freely choose what format you want to work with and how you want to present your creation, your story, your experience or anything you come up with.</p>
+<div id="fullpage" style="z-index: 9;">
+  <div class="section fp-auto-height-responsive" style="background-image: url('<%= bg_image1_path %>'); background-repeat: no-repeat; background-size: cover;">
+    <div class="about-content">
+        <div class="section1" data-anchor="slide1">
+          <h1>A blank canvas for 2047</h1>
+          <p>Where are we in 29 years? We invite artists and creators to take us into scenarios we wouldn't have imagined. Present your creation, your story, your experience. Show exciting implications of technologies not yet invented or envision dystopias.</p>
 
-    <p>As examples, this could be art installations, workshops, videos, performances & experiences. You can weld, build, paint, program, play music or create a robotic architecture. Maybe you are a great storyteller, or a workshop host. Maybe you just want to help the people building, by making sandwiches and serving tea. Every effort counts in this creative community, and is welcome.</p>
+          <p>Färgfabriken i Stockholm is your canvas of over 500m2 for co-creative expression.</p>
+        </div>
+    </div>
+  </div>
+  <div class="section fp-auto-height-responsive" style="background-image: url('<%= bg_image2_path %>'); background-repeat: no-repeat; background-size: cover;">
+    <div class="about-content">
+      <div class="row">
+        <div class="section2" data-anchor="slide1">
+          <h1>Become a dreaming drone</h1>
 
-    <p>This site is where we imagine and show our ideas for Drone Dancing. It's where we explore each others ideas, and decide who gets funding, and how much. This happens through everyone in the online community receiving virtual coins, which they can use to fund their favorite projects.</p>
+          <p>Drones of all types are welcome to the collective. Dream of art installations, workshops, videos, performances and experiences. You can weld, build, paint, program, play music or create a robotic architecture. Maybe you are a great storyteller, or a workshop host. Maybe you just want to help the people building, by making sandwiches and serving tea. Every effort counts in this creative community, and is welcome.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section fp-auto-height-responsive" style="background-image: url('<%= bg_image3_path %>'); background-repeat: no-repeat; background-size: cover;"">
+    <div class="about-content">
+      <div class="row">
+        <div class="section3" data-anchor="slide1">
+          <h1>Start by creating a Dream</h1>
+          <p>This is where we imagine and show our ideas. It's where we explore each others ideas, and decide who gets funding, and how much. This happens through everyone in the online community receiving virtual coins, which they can use to fund their favorite projects.</p>
 
-    <p>Building happens between April 26, 2018 (when the funding has been allocated) and the opening of the event, September 1st. In principle you could start now. The venue is booked for build-up a week before opening. After closing September 16th, we clean up and leave the place as we found it. </p>
+          <p>Building happens between April 26, 2018 (when the funding has been allocated) and the opening of the event, September 1st. You can start right now. Färgfabriken is booked for build-up a week before opening. After closing September 16th, we clean up and leave the place as we found it. </p>
 
-    <p>To learn more, visit the info page. Also attend the facebook event and group. And don’t forget to sign up!</p>
+          <p>To learn more, visit the info page. Also attend the facebook event and group. And don’t forget to sign up!</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
