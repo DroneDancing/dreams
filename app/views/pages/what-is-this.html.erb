@@ -10,7 +10,7 @@
   $(document).ready(function() {
     $('#fullpage').fullpage({
       slidesNavigation: false,
-      anchors:['slide1', 'slide2', 'slide3'],
+      anchors:['what', 'become', 'steps', 'how', 'when', 'faq'],
       fixedElements: '#header',
       responsiveWidth: 600,
       verticalCentered: false,
@@ -22,25 +22,30 @@
 <% bg_image1_path = image_path("takvningen.jpg") %>
 <% bg_image2_path = image_path("embryo-lasers.jpg") %>
 <% bg_image3_path = image_path("bubble-x-balloon.jpg") %>
+<% bg_image4_path = image_path("sortie.jpg") %>
+<% bg_image5_path = image_path("treval.jpg") %>
+<% bg_image6_path = image_path("gogh.jpg") %>
 
 <div id="fullpage" style="z-index: 9;">
   <div class="section fp-auto-height-responsive" style="background-image: url('<%= bg_image1_path %>'); background-repeat: no-repeat; background-size: cover;">
     <div class="about-content">
-        <div class="section1" data-anchor="slide1">
+        <div class="section1" data-anchor="what">
           <h1>A blank canvas for 2047</h1>
-          <p>Where are we in 29 years? We invite artists and creators to take us into scenarios we wouldn't have imagined. Present your creation, your story, your experience. Show exciting implications of technologies not yet invented or envision dystopias.</p>
+          <p>Drone Dancing is a multi format social art event exploring what it means to be human 29 years from now - in 2047. It takes place at Färgfabriken Stockholm, Sweden, September 1-16, 2018. Initiated by the Goethe Institut, it is organised in collaboration between Färgfabriken, Goethe Institut and ArtSci Nexus</p>
 
-          <p>Färgfabriken i Stockholm is your canvas of over 500m2 for co-creative expression.</p>
+          <p>This website is the Dream Machine, where you can post, explore, join and fund Dream projects for the Drone Dancing Exhibition.</p>
         </div>
     </div>
   </div>
   <div class="section fp-auto-height-responsive" style="background-image: url('<%= bg_image2_path %>'); background-repeat: no-repeat; background-size: cover;">
     <div class="about-content">
       <div class="row">
-        <div class="section2" data-anchor="slide1">
+        <div class="section2" data-anchor="become">
           <h1>Become a dreaming drone</h1>
 
-          <p>Drones of all types are welcome to the collective. Dream of art installations, workshops, videos, performances and experiences. You can weld, build, paint, program, play music or create a robotic architecture. Maybe you are a great storyteller, or a workshop host. Maybe you just want to help the people building, by making sandwiches and serving tea. Every effort counts in this creative community, and is welcome.</p>
+          <p>We invite artists and creators to take us into scenarios we wouldn't have imagined. Present your creation, your story, your experience. Show exciting implications of technologies not yet invented or envision dystopias.</p>
+
+          <p>Drones of all types are welcome to the collective. You can weld, build, paint, program, play music or create a robotic architecture. Maybe you are a great storyteller, videographer, performer or workshop host. Maybe you just want to help others build by making sandwiches and serving tea. Every effort counts in the swarm.</p>
         </div>
       </div>
     </div>
@@ -48,15 +53,59 @@
   <div class="section fp-auto-height-responsive" style="background-image: url('<%= bg_image3_path %>'); background-repeat: no-repeat; background-size: cover;"">
     <div class="about-content">
       <div class="row">
-        <div class="section3" data-anchor="slide1">
-          <h1>Start by creating a Dream</h1>
-          <p>This is where we imagine and show our ideas. It's where we explore each others ideas, and decide who gets funding, and how much. This happens through everyone in the online community receiving virtual coins, which they can use to fund their favorite projects.</p>
-
-          <p>Building happens between April 26, 2018 (when the funding has been allocated) and the opening of the event, September 1st. You can start right now. Färgfabriken is booked for build-up a week before opening. After closing September 16th, we clean up and leave the place as we found it. </p>
-
-          <p>To learn more, visit the info page. Also attend the facebook event and group. And don’t forget to sign up!</p>
+        <div class="section3" data-anchor="steps">
+          <h1>Step into the swarm</h1>
+          <ul>
+            <li><p>Step 1: Join our <a href="https://www.facebook.com/groups/406280706488574/?source_id=404184976674004">Facebook group</a></p></li>
+            <li><p>Step 2: Follow the <a href="https://www.facebook.com/dronedancing/">Facebook Page</a></p></li>
+            <li><p>Step 3: Join the next info meeting</p></li>
+          </ul>
+          <p>When you're ready <a href="/users/sign_up">register a profile</a></p>
+          <p>Then <a href="/dreams/new">create a Dream</a> or join the swarm of <a href="/dreams">another Dream.</a>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="section fp-auto-height-responsive" style="background-image: url('<%= bg_image4_path %>'); background-repeat: no-repeat; background-size: cover;"">
+    <div class="about-content">
+      <div class="row">
+        <div class="section2" data-anchor="how">
+          <h1>A collective Dream Machine</h1>
+
+          <p>This Dream Machine is where we imagine to do. The swarm decides who gets funding, and how much. This happens through everyone in the online community receiving virtual coins, which they can use to fund their favorite projects.</p>
+
+          <p>Shares are given by drones in the swarm, who each have 5 shares to distribute. Each share is worth some amount in SEK, determined when the budget has been set. You can give at most one share to each Dream. Anyone who is registered as a member of a Dream swarm gets shares.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section fp-auto-height-responsive" style="background-image: url('<%= bg_image5_path %>'); background-repeat: no-repeat; background-size: cover;"">
+    <div class="about-content">
+      <div class="row">
+        <div class="section1" data-anchor="when">
+          <h1>When will the Drones dance?</h1>
+
+          <p>Building happens between April 26, 2018 (when the funding has been allocated) and the opening of the event, September 14. In principle you could start now. The venue is booked for build-up three days before opening. After closing September 21 (with a party, of course), we clean up and leave the place as we found it.  </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section fp-auto-height-responsive" style="background-image: url('<%= bg_image6_path %>'); background-repeat: no-repeat; background-size: cover;"">
+    <div class="about-content">
+      <div class="row">
+        <div class="section2" data-anchor="faq">
+          <h1>FAQ: Questions for the curious</h1>
+          <p>Nobody asked any questions yet. Be the first - contact us through the <a href="https://www.facebook.com/dronedancing/">Facebook Page</a>, or contact project leader Anna:</p>
+          <p>anna.a.k.hinrichsen@gmail.com</p>
+          <p>+4560747629</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>

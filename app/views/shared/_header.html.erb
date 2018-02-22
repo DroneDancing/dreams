@@ -32,7 +32,9 @@
                 </ul>
               </div>
             <% end %>
+
             <%= link_to t("top_headline_what_is_this"), '/pages/what-is-this' %>
+
             <% if !user_signed_in? %>
               <%= link_to t("login_menu"), new_user_session_path %>
               <%= link_to t("register_menu"), new_user_registration_path %>

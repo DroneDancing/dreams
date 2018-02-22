@@ -8,8 +8,7 @@ en:
   reverse_direction: right
   lang_direction: left
   browser_title_tag: Dream Machine
-  main_sharing_description: Dream Machine is where drones dance in the skies
-    of tomorrow, coming together in 
+  main_sharing_description: Dream Machine is where drones dance in the skies of tomorrow.
   top_headline_html: DREAM<br>MACHINE
   top_headline_resources: Resources >
   top_headline_dreams: Dreams
@@ -33,18 +32,23 @@ en:
   welcome_guest_title: Welcome to the Dream Machine
   welcome_guest_text_html: 
     <p>
-    Greetings! You have entered the participatory realm of Drone Dancing, our Open Call to co-create your imaginary future(s). This website is the Dream Machine, where you can post, explore, join and fund projects for the Drone Dancing Exhibition.    
+    Greetings! You have entered the participatory realm of Drone Dancing, our Open Call to co-create your imaginary future(s). This website is the Dream Machine, where you can post, explore, join and fund Dreams (projects) for the Drone Dancing Exhibition. 
     </p>
+
     <p>
-    Drone Dancing is a multi format social art event exploring what it means to be human 29 years from now - in 2047. It takes place at Färgfabriken Stockholm, Sweden, September 1-16, 2018. 
+    Drone Dancing is a multi format social art event exploring what it means to be human 29 years from now - in 2047. It takes place at Färgfabriken Stockholm, Sweden, September 14-21, 2018. 
+    </p>
+
+    <p>
+    Do you wish to add a Dream, or to spend your art grant hearts? Then please <a href="/users/sign_up">Register</a> or <a href="/users/sign_in">Sign in</a>.
     </p>
   welcome_user_title: Welcome to the Dream Machine
   welcome_user_text_html: 
     <p>
-    Greetings! You have entered the participatory realm of Drone Dancing, our Open Call to co-create your imaginary future(s). This website is the Dream Machine, where you can post, explore, join and fund projects for the Drone Dancing Exhibition.    
+    Greetings! You have entered the participatory realm of Drone Dancing, our Open Call to co-create your imaginary future(s). This website is the Dream Machine, where you can post, explore, join and fund Dreams (projects) for the Drone Dancing Exhibition. 
     </p>
     <p>
-    Drone Dancing is a multi format social art event exploring what it means to be human 29 years from now - in 2047. It takes place at Färgfabriken Stockholm, Sweden, September 1-16, 2018. 
+    Drone Dancing is a multi format social art event exploring what it means to be human 29 years from now - in 2047. It takes place at Färgfabriken Stockholm, Sweden, September 14-21, 2018. 
     </p>
   footer_left_html: Metaburn is a participatory community where we co-create events
     and gatherings as prototypes of our dreams. It is an empty container, open to
@@ -80,7 +84,8 @@ en:
   form_contact_phone_label: Your phone number (won't be published)
   form_contact_phone_guidetext_html: Emergency contact
   form_about_the_artist_label: About the group/Artist
-  form_dream_website_label: Web Site / Facebook page
+  form_about_the_artist_guidetext_html: What you write here will be published on your dream page
+  form_dream_website_label: Web Site / Facebook page of the project
   form_dream_website_short: The dream website
   
   form_dream_point_of_contact_email: Your contact person from Art Department
@@ -113,9 +118,7 @@ en:
   form_project_management_dream_pre_construction_site: Construction site
   form_project_management_dream_pre_construction_site_guidetext_html: Where will you build your art installation, prior to arriving at the Playa?
   form_description_label: Full description of the concept
-  form_description_guidetext_html: Give a full physical and conceptual description,
-    including interactivity how it will fit into Drone Dancing community. You've got 4096
-    characters. Make them count.
+  form_description_guidetext_html: Give a full physical and conceptual description, including interactivity. How will it fit into the Drone Dancing community? You've got 4096 characters. Make them count.
   form_electricity_label: Do you need electricity?
   form_electricity_guidetext_html: Specify what you need to power. How many outlets? Will you bring your own cables and extension chords?
   form_light_label: Will there be light?
@@ -125,7 +128,7 @@ en:
   form_fire_guidetext_html: Tell us about your plans for dealing with big fire, if
     you have such.
   form_noise_label: What is your audio footprint?
-  form_noise_guidetext_html: Are you making any noise?
+  form_noise_guidetext_html: What kind of noise are you making (if any)?
   form_nature_label: Warming the place
   form_nature_guidetext_html: Jerucham lake at this time is a coooolllllddddd place,
     How is your dream will warm up the participants?
@@ -145,7 +148,11 @@ en:
     Quiet, Deep playa, Near camps, Near sounds camps, Far away from sound camps
 
   form_artgrants_headline: Art grant information
-  form_artgrants_text_html: <p>Shares are given by drones in the Dream Machine community, that includes you! You will have 5 shares to distribute, and each share is worth some amount in SEK to be determined when the budget has been set. You can give at most one share to each Dream, including your own. Anyone with an account on the Dream Machine, who is also registered as a member of a project, gets shares to distribute. Make sure to register your friends as members of your Drone Collective, using the same email as they used to register for the Dream Machine!</p>
+  form_artgrants_text_html: "<p>Shares are given by drones in the Dream Machine community, that includes you! You will have 5 shares to distribute, and each share is worth some amount in SEK to be determined when the budget has been set. You can give at most one share to each Dream, including your own. Anyone with an account on the Dream Machine, who is also part of project “swarm”, gets shares to distribute. To join a Dream Swarm, go to any Dream and simply click “Add me to the swarm”.
+  </p>
+  <p>
+  The money comes from Kulturbryggan, the Goethe Institut, and sponsors, and we also encourage you to find additional funding for your dream elsewhere.
+  </p>"
   form_minigrants_realcurrency_label: "Minumum budget needed in SEK:"
   form_minigrants_realcurrency_guidetext_html: Necessary minimum budget level, below which you won't get funded.
   form_maxigrants_realcurrency_label: "Funds needed in SEK to fully fund dream:"

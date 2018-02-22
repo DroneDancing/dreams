@@ -106,6 +106,9 @@
 
   .combo
     = form.label t("form_about_the_artist_label")
+
+    .field-description
+      = t("form_about_the_artist_guidetext_html")
     %blockquote
       = best_in_place_if @can_edit, @camp, :about_the_artist, html_attrs: {maxlength: 1024, class: "form-control"},as: :textarea, display_with: :simple_format, place_holder: t(:form_click_to_edit_html)
 
