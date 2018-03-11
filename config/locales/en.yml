@@ -148,7 +148,7 @@ en:
     Quiet, Deep playa, Near camps, Near sounds camps, Far away from sound camps
 
   form_artgrants_headline: Art grant information
-  form_artgrants_text_html: "<p>Shares are given by drones in the Dream Machine community, that includes you! You will have 5 shares to distribute, and each share is worth some amount in SEK to be determined when the budget has been set. You can give at most one share to each Dream, including your own. Anyone with an account on the Dream Machine, who is also part of project “swarm”, gets shares to distribute. To join a Dream Swarm, go to any Dream and simply click “Add me to the swarm”.
+  form_artgrants_text_html: "<p>Coins are given by drones in the Dream Machine community, that includes you! You will have 5 coins to distribute, and each coin is worth some amount in SEK to be determined when the budget has been set. You can give at most one coin to each Dream, including your own. Anyone with an account on the Dream Machine, who is also part of project “swarm”, gets coins to distribute. To join a Dream Swarm, go to any Dream and simply click “Add me to the swarm”.
   </p>
   <p>
   The money comes from Kulturbryggan, the Goethe Institut, and sponsors, and we also encourage you to find additional funding for your dream elsewhere.
@@ -224,7 +224,7 @@ en:
   form_dream_scholarship_fund_is_from_art_fund: Are you interested in submitting a
     scholarship application for your project?
   form_dream_scholarship_fund_is_open_for_public: Are you interested in opening your
-    art installation for receiving shares from the community?
+    art installation for receiving coins from the community?
   form_dream_scholarship_pre_fill_notes_criterions: Prior to filling in, please review
     the criteria for scholarship approval.
   form_dream_scholarship_pre_fill_notes_questions: If you have any questions please
@@ -387,15 +387,15 @@ en:
   manage_images: Manage Images
   open_dream_for_guide_edit: Open dream for guide editing
   open_dream_for_guide_edit_view_only: Lock dream for View only
-  give_grants: Give share
-  i_gift_thee_grants: Give one share
+  give_grants: Give coin
+  i_gift_thee_grants: Give one coin
   no_granting_yet: No granting for this dream yet!
   donate_title: Oh Wow! You're about to make dreams reality...
   donate_content: There are many ways to help a dream come true, yet here you are
-    invited to divide your shares and give it to this dream.
+    invited to divide your coins and give it to this dream.
   donate_text: Give
-  coins_text: Share
-  coins_left: 'Available shares:'
+  coins_text: Coin
+  coins_left: 'Available coins:'
   currency: NIS
   how_can_i_help_title: How can I help?
   how_can_i_help_title_desc_html: In this page you will find all our dreamers current needs. Find a dream you'd like to join, and click 
@@ -438,12 +438,12 @@ en:
   min_funded: Minimum
   max_funded: Target
   minimum_funding_reached: Minimum funding reached
-  minimum_grants_needed: Minimum shares needed
+  minimum_grants_needed: Minimum coins needed
   needed_to_fully_fund: Needed to fully fund
   minimum_grants_realcurrency_needed: Minimum budget needed in NIS
   needed_to_fully_fund_realcurrency: Needed to fully fund in NIS
-  your_available_grants: Your available shares
-  youre_out_of_grants: You're out of shares. Hats off!
+  your_available_grants: Your available coins
+  youre_out_of_grants: You're out of coins. Hats off!
   add_my_name: Add me to the swarm
   added_my_name: Following swarm
   delete_this_creation: Delete this creation
@@ -453,7 +453,7 @@ en:
   your_space: Your personal space
   your_dream: Your dream
   youve_donated: You've donated
-  coins_name: Shares
+  coins_name: Coins
   dreams_you_help_make: Dreams you made happen
   log_in: Log in
   sign_up: Sign Up
@@ -471,15 +471,15 @@ en:
     sure you use the same email and phone you used when made the donation
   membership_code_registered: Membership code is already registered for another user.
     Perhaps you want to Login
-  thanks_for_sending: Thanks for sending %{grants} share(s)
+  thanks_for_sending: Thanks for sending %{grants} coin(s)
   reset_pass_hello: Hello
   reset_pass_link_text: Someone has requested a link to change your password. You
     can do this through the link below.
   reset_pass_didnt: If you didn't request this, please ignore this email.
   reset_pass_wont_change: Your password won't change until you access the link above
     and create a new one.
-  cant_send_less_then_one: One cannot send less than 1 share
-  cant_send_more_than_one: You've already granted a share to this dream. You cannot send more than one share to the same dream.
+  cant_send_less_then_one: One cannot send less than 1 coin
+  cant_send_more_than_one: You've already granted a coin to this dream. You cannot send more than one coin to the same dream.
   dream_need_to_have_max_budget: Dream needs to have maximum budget. please contact
     dreamer or dream guides
   security_more_grants: Security error cannot grant more then available grants. you
@@ -492,7 +492,7 @@ en:
   security_cant_change_images_you_dont_own: One cannot change image he dont own - hacker come join us
   dream_not_found: The Dream you were looking for doesn't exist. Would you like to
     create a new Dream?
-  join_dream: You were added to this dream swarm! If the dream owner accepts, you will get shares to participate in public granting.
+  join_dream: You were added to this dream swarm! If the dream owner accepts, you will get coins to participate in public granting.
   join_errors_login: You need to be logged in to add yourself to the swarm.
   join_already_sent: Nice! You've already sent your email to the creator.
   yes_text: Yesss
@@ -540,8 +540,8 @@ en:
         one: Ticket
         other: Tickets
       grant:
-        one: Share
-        other: Shares
+        one: Coin
+        other: Coins
       comment:
         one: Comment
         other: Comments
@@ -556,7 +556,7 @@ en:
         encrypted_password: Encrypted password
         admin: Manager
         guide: Instructor
-        grants: Shares
+        grants: Coins
         created_at: Created
         updated_at: Updated
         password_confirmation: Confirm Password
@@ -590,7 +590,7 @@ en:
         budgetplan: Planned budget
         minbudget: 'Minimum budget '
         maxbudget: Maximum budget
-        grants_received: Shares
+        grants_received: Coins
         grantingtoggle: Grants enabled
         active: Is it active
         is_public: Is it public
