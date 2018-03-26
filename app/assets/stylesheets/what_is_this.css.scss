@@ -16,13 +16,13 @@
 .section1 {
   max-width: 600px;
   margin: 0% auto;
-  background:rgba(255,255,255,0.5);
+  background:rgba(255,255,255,0.75);
   padding: 25px;
   border-radius: 25px;
 }
 
 .section2 {
-  background:rgba(255,230,109,0.5);
+  background:rgba(255,230,109,0.75);
   padding: 25px;
   border-radius: 25px;
   max-width: 600px;
@@ -36,10 +36,23 @@
     color: black;
   }
 
+  ul {
+    p {
+      padding: 0;
+    }
+  } 
+
+  a {
+    color: $cdd-red;
+    &:hover {
+        color: white;
+      }
+  }
+
 }
 
 .section3 {
-  background:rgba(26,83,92,0.5);
+  background:rgba(26,83,92,0.75);
   padding: 25px;
   border-radius: 25px;
   max-width: 600px;
@@ -48,6 +61,12 @@
   h1 {
     color: white;
   };
+
+  ul {
+    p {
+      padding: 0;
+    }
+  }  
 
   p {
     color: white;

@@ -32,11 +32,11 @@ en:
   welcome_guest_title: Welcome to the Dream Machine
   welcome_guest_text_html: 
     <p>
-    Greetings! You have entered the participatory realm of Drone Dancing, our Open Call to co-create your imaginary future(s). This website is the Dream Machine, where you can post, explore, join and fund Dreams (projects) for the Drone Dancing Exhibition. 
+    Greetings! You have entered the participatory realm of Drone Visions, our Open Call to co-create your imaginary future(s). This website is the Dream Machine, where you can post, explore, join and fund Dreams (projects) for the Drone Visions Exhibition. 
     </p>
 
     <p>
-    Drone Dancing is a multi format social art event exploring what it means to be human 29 years from now - in 2047. It takes place at Färgfabriken Stockholm, Sweden, September 14-21, 2018. 
+    Drone Visions is a multi format social art event exploring what it means to be human 29 years from now - in 2047. It takes place at Färgfabriken Stockholm, Sweden, September 14-21, 2018. 
     </p>
 
     <p>
@@ -45,10 +45,10 @@ en:
   welcome_user_title: Welcome to the Dream Machine
   welcome_user_text_html: 
     <p>
-    Greetings! You have entered the participatory realm of Drone Dancing, our Open Call to co-create your imaginary future(s). This website is the Dream Machine, where you can post, explore, join and fund Dreams (projects) for the Drone Dancing Exhibition. 
+    Greetings! You have entered the participatory realm of Drone Visions, our Open Call to co-create your imaginary future(s). This website is the Dream Machine, where you can post, explore, join and fund Dreams (projects) for the Drone Visions Exhibition. 
     </p>
     <p>
-    Drone Dancing is a multi format social art event exploring what it means to be human 29 years from now - in 2047. It takes place at Färgfabriken Stockholm, Sweden, September 14-21, 2018. 
+    Drone Visions is a multi format social art event exploring what it means to be human 29 years from now - in 2047. It takes place at Färgfabriken Stockholm, Sweden, September 14-21, 2018. 
     </p>
   footer_left_html: Metaburn is a participatory community where we co-create events
     and gatherings as prototypes of our dreams. It is an empty container, open to
@@ -118,7 +118,7 @@ en:
   form_project_management_dream_pre_construction_site: Construction site
   form_project_management_dream_pre_construction_site_guidetext_html: Where will you build your art installation, prior to arriving at the Playa?
   form_description_label: Full description of the concept
-  form_description_guidetext_html: Give a full physical and conceptual description, including interactivity. How will it fit into the Drone Dancing community? You've got 4096 characters. Make them count.
+  form_description_guidetext_html: Give a full physical and conceptual description, including interactivity. How will it fit into the Drone Visions community? You've got 4096 characters. Make them count.
   form_electricity_label: Do you need electricity?
   form_electricity_guidetext_html: Specify what you need to power. How many outlets? Will you bring your own cables and extension chords?
   form_light_label: Will there be light?
@@ -151,7 +151,7 @@ en:
   form_artgrants_text_html: "<p>Coins are given by drones in the Dream Machine community, that includes you! You will have 5 coins to distribute, and each coin is worth some amount in SEK to be determined when the budget has been set. You can give at most one coin to each Dream, including your own. Anyone with an account on the Dream Machine, who is also part of project “swarm”, gets coins to distribute. To join a Dream Swarm, go to any Dream and simply click “Add me to the swarm”.
   </p>
   <p>
-  The money comes from Kulturbryggan, the Goethe Institut, and sponsors, and we also encourage you to find additional funding for your dream elsewhere.
+  The money comes from Kulturbryggan, the Goethe-Institut, and sponsors, and we also encourage you to find additional funding for your dream elsewhere.
   </p>"
   form_minigrants_realcurrency_label: "Minumum budget needed in SEK:"
   form_minigrants_realcurrency_guidetext_html: Necessary minimum budget level, below which you won't get funded.
