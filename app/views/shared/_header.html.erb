@@ -23,7 +23,7 @@
               <%= link_to "Drone Dreams", camps_path %>
             <% else %>
               <div class="dropdown">
-                <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Drone Dreams</a>
+                <a class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Drone Visions</a>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
                   <li><%= link_to "Show dreams", camps_path %></li>
                   <% if user_signed_in? and !Rails.application.config.x.firestarter_settings['disable_open_new_dream'] and Lockdown.instance.allowed?('submit_dream') %>
