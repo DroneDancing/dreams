@@ -7,17 +7,17 @@ en:
   html_direction: ltr
   reverse_direction: right
   lang_direction: left
-  browser_title_tag: Dream Machine
-  main_sharing_description: Dream Machine is where drones dance in the skies of tomorrow.
-  top_headline_html: DREAM<br>MACHINE
+  browser_title_tag: Drone Vision
+  main_sharing_description: Drone Vision is where drones dance in the skies of tomorrow.
+  top_headline_html: DRONE<br>VISIONS
   top_headline_resources: Resources >
-  top_headline_dreams: Dreams
-  top_headline_old_dreams: Old Dreams
+  top_headline_dreams: Visions
+  top_headline_old_dreams: Old Visions
   top_headline_faq: FAQ
   top_headline_what_is_this: What is this?
   top_headline_become_a_drone: Become a drone
-  creations_menu: Dreams
-  register_creation_menu: Create A Dream
+  creations_menu: Visions
+  register_creation_menu: Create A Vision
   login_menu: Log in
   register_menu: Register
   private_area: My drone profile >
@@ -25,11 +25,11 @@ en:
   logout_menu: Log out
   public: Public
   private: Private
-  humans_credit_html: The dreams platform started at Borderland, from there it reached
+  humans_credit_html: The visions platform started at Borderland, from there it reached
     the Middle east to Midburnerot, Midburn and is now part of Metaburn<br>Here are the humans who made
-    the dreams platform possible (Refresh the page, Swipe to shuffle, Or use the arrow
+    the visions platform possible (Refresh the page, Swipe to shuffle, Or use the arrow
     keys)
-  welcome_guest_title: Welcome to the Dream Machine
+  welcome_guest_title: Welcome to Drone Visions
   welcome_guest_text_html: 
     <p>
     Greetings! You have entered the Drone Visions platform, the participatory realm of Drone Dancing, where we envision and co-create a better future through art. Here, you can post, explore, join and fund your Vision (project) for the “swarm exhibition” in Stockholm, Aug 24 to Sep 16, 2018.
@@ -40,9 +40,9 @@ en:
     </p>
 
     <p>
-    Do you wish to add a Dream, or to spend your art grant hearts? Then please <a href="/users/sign_up">Register</a> or <a href="/users/sign_in">Sign in</a>.
+    Do you wish to add a Vision, or to spend your art coins? Then please <a href="/users/sign_up">Register</a> or <a href="/users/sign_in">Sign in</a>.
     </p>
-  welcome_user_title: Welcome to the Dream Machine
+  welcome_user_title: Welcome to Drone Visions
   welcome_user_text_html: 
     <p>
     Greetings! You have entered the Drone Visions platform, the participatory realm of Drone Dancing, where we envision and co-create a better future through art. Here, you can post, explore, join and fund your Vision (project) for the “swarm exhibition” in Stockholm, Aug 24 to Sep 16, 2018.
@@ -52,10 +52,10 @@ en:
     Drone Dancing is a multi format social art event exploring what it means to be human 29 years from now - in 2047. The first exhibition takes place at Färgfabriken in Stockholm then, the series continues in the Netherlands, Scotland and Denmark in 2019. The best Visions from Stockholm will get the chance to be exhibited at these events as well.
     </p>
   footer_left_html: Metaburn is a participatory community where we co-create events
-    and gatherings as prototypes of our dreams. It is an empty container, open to
+    and gatherings as prototypes of our visions. It is an empty container, open to
     your initiative. It is an invitation to play, to reflect, and to engage.
   footer_right_html: Metaburn
-  footer_html: Dream Machine is <a href='https://github.com/metaburn/dreams'>open
+  footer_html: Drone Visions is <a href='https://github.com/metaburn/dreams'>open
     source</a> and served with <span>❤</span>.
   errors_str: Errors
   search_title: Search
@@ -63,31 +63,31 @@ en:
   hide_minimum_funded: Hide minimum funded
   hide_not_open_for_granting: Hide not open for funding
   sort_by: Sort by
-  form_basics_headline: Dream registration
+  form_basics_headline: Vision registration
   form_summary: Summary
-  form_dream_name: Dream name
-  form_dream_name_en_label: Dream name in English (required)
-  form_dream_name_label: Dream name (required) 
-  form_dream_name_guidetext_html: What's your dream prototype called?
-  form_subtitle_en_label: Summarize your dream in English (required)
-  form_subtitle_label: Summarize your dream (required)
-  form_subtitle_guidetext_html: Brief summary of the dream prototype you are applying
-    for the front page of the dream's site. Keep it short, up to 256 characters.
+  form_dream_name: Vision name
+  form_dream_name_en_label: Vision name in English (required)
+  form_dream_name_label: Vision name (required) 
+  form_dream_name_guidetext_html: What's your vision prototype called?
+  form_subtitle_en_label: Summarize your vision in English (required)
+  form_subtitle_label: Summarize your vision (required)
+  form_subtitle_guidetext_html: Brief summary of the vision prototype you are applying
+    for the front page of the visions site. Keep it short, up to 256 characters.
   form_creator_name_label: Group / Artist name
   form_creator_name_guidetext_html: ''
-  create_dream_loading_text: Making room for your dream in our magical cloud...
+  create_dream_loading_text: Making room for your vision in our magical cloud...
   create_dream_loading_text2: This usually takes ~8 seconds. Take a mindful breath as we integrate with the drive for you...
   form_dream_visability: Public for everyone to see?
   form_dream_visability_yes: Yes, Show it to the world
   form_dream_visability_no: No, Hide it for now
-  form_dream_visability_guidetext_html: Public dreams will be shown on the main page.
+  form_dream_visability_guidetext_html: Public visions will be shown on the main page.
     Private dreams will be shown only with a direct link
   form_contact_phone_label: Your phone number (won't be published)
   form_contact_phone_guidetext_html: Emergency contact
   form_about_the_artist_label: About the group/Artist
-  form_about_the_artist_guidetext_html: What you write here will be published on your dream page
+  form_about_the_artist_guidetext_html: What you write here will be published on your visions page
   form_dream_website_label: Web Site / Facebook page of the project
-  form_dream_website_short: The dream website
+  form_dream_website_short: The visions website
   
   form_dream_point_of_contact_email: Your contact person from Art Department
   dream_safety_file_comments_nop_message: Hurray! Nothing for you to update right now...
@@ -119,7 +119,7 @@ en:
   form_project_management_dream_pre_construction_site: Construction site
   form_project_management_dream_pre_construction_site_guidetext_html: Where will you build your art installation, prior to arriving at the Playa?
   form_description_label: Full description of the concept
-  form_description_guidetext_html: Give a full physical and conceptual description, including interactivity. How will it fit into the Drone Visions community? You've got 4096 characters. Make them count.
+  form_description_guidetext_html: Give a full physical and conceptual description, including interactivity. How will it fit into Drone Visions community? You've got 4096 characters. Make them count.
   form_electricity_label: Do you need electricity?
   form_electricity_guidetext_html: Specify what you need to power. How many outlets? Will you bring your own cables and extension chords?
   form_light_label: Will there be light?
@@ -132,7 +132,7 @@ en:
   form_noise_guidetext_html: What kind of noise are you making (if any)?
   form_nature_label: Warming the place
   form_nature_guidetext_html: Jerucham lake at this time is a coooolllllddddd place,
-    How is your dream will warm up the participants?
+    How will your vision will warm up the participants?
   form_moop_label: Moop plan (matter out of place)
   form_moop_guidetext_html: All the little things that should not end up just lying
     around. What kind of moop (Trash et.c) will you and the participants in your creation
@@ -149,14 +149,14 @@ en:
     Quiet, Deep playa, Near camps, Near sounds camps, Far away from sound camps
 
   form_artgrants_headline: Art grant information
-  form_artgrants_text_html: "<p>Coins are given by drones in the Dream Machine community, that includes you! You will have 5 coins to distribute, and each coin is worth some amount in SEK to be determined when the budget has been set. You can give at most one coin to each Dream, including your own. Anyone with an account on the Dream Machine, who is also part of project “swarm”, gets coins to distribute. To join a Dream Swarm, go to any Dream and simply click “Add me to the swarm”.
+  form_artgrants_text_html: "<p>Coins are given by drones in Drone Visions community, that includes you! You will have 5 coins to distribute, and each coin is worth some amount in SEK to be determined when the budget has been set. You can give at most one coin to each Vision, including your own. Anyone with an account on Drone Visions, who is also part of project “swarm”, gets coins to distribute. To join a Vision Swarm, go to any Vision and simply click “Add me to the swarm”.
   </p>
   <p>
-  The money comes from Kulturbryggan, the Goethe-Institut, and sponsors, and we also encourage you to find additional funding for your dream elsewhere.
+  The money comes from Kulturbryggan, the Goethe-Institut, and sponsors, and we also encourage you to find additional funding for your vision elsewhere.
   </p>"
   form_minigrants_realcurrency_label: "Minumum budget needed in SEK:"
   form_minigrants_realcurrency_guidetext_html: Necessary minimum budget level, below which you won't get funded.
-  form_maxigrants_realcurrency_label: "Funds needed in SEK to fully fund dream:"
+  form_maxigrants_realcurrency_label: "Funds needed in SEK to fully fund vision:"
   form_maxigrants_realcurrency_guidetext_html: "How much do you need to fully fund your project and make it something extraordinary?"
   form_budgetplan_label: "Budget overview"
   form_budgetplan_guidetext_html: "How will you use your budget? Describe your costs, not too specific, not too vague, perfectly balanced. At most 1024 characters. A more detailed budget is specified in your spreadsheet on Google Drive."
@@ -204,7 +204,7 @@ en:
     does not imply confirmation or an obligation to burn the art installation.
   form_dream_prop_community_context_desc_guidetext_html: Cooperation during costruction,
               shared events with other communities etc.
-  form_dream_prop_theme_annual_desc_guidetext_html: Does the art installation draw its inspiration from the annual "Lucid Dream" theme or supports the ten Burning Man principles?
+  form_dream_prop_theme_annual_desc_guidetext_html: Does the art installation draw its inspiration from the annual "Lucid Vision" theme or supports the ten Burning Man principles?
   form_dream_scholarship_head: Midburn Art Fund scholarship application
   form_dream_scholarship_head_desc: 'If you wish to receive a stipend from Midburn''s
     Art Fund, please fill in the following fields. This information will be added
@@ -215,7 +215,7 @@ en:
     the criteria of the art fund and the scholarship specification, please visit: '
   form_dream_prop_community: Community
   form_dream_prop_theme: Theme
-  form_dream_prop_head: Dream Theme
+  form_dream_prop_head: Vision Theme
   form_dream_prop_philosophy: What the philosophy behind the piece/art installation?
   form_dream_prop_inspiration: What were your insperations  for this project?
   form_dream_prop_inspiration_guidetext_html: 'For instance: historical, cultural,
@@ -337,7 +337,7 @@ en:
     location on the playa. Note that the measurements of the art installation, sound,
     power consumption and general attributes all play a role in determining its location.
   form_basics_safety_bag: Fields which are marked in ultra pink are required for the
-    safety file. Most of them are not shown in the public dream page
+    safety file. Most of them are not shown in the public vision page
   form_safetybag_headline: Safety file info
   form_safetybag_show_hide: Show / Hide Safety file info
   form_safetybag_needs_to_fill: Please notice the button above me. click it! You should
@@ -399,15 +399,15 @@ en:
   coins_left: 'Available coins:'
   currency: NIS
   how_can_i_help_title: How can I help?
-  how_can_i_help_title_desc_html: In this page you will find all our dreamers current needs. Find a dream you'd like to join, and click 
-  how_can_i_help_page_description: In this page you will find all our dreamers current needs. Find a dream you'd like to join, and click add my name"
-  created_new_dream: Yeah! You've created a dream. You can add info to your dream
+  how_can_i_help_title_desc_html: In this page you will find all our drones current needs. Find a vision you'd like to join, and click 
+  how_can_i_help_page_description: In this page you will find all our drones current needs. Find a vision you'd like to join, and click add my name"
+  created_new_dream: Yeah! You've created a vision. You can add info to your vision
     now or save and continue adding info in the future
   what_is_this_title: What is this?
   what_is_this_text_html: Congratulations! You've stumbled upon something special.
-    This Dream Machine is where drones dreams together.
+    This Drone Visions is where drones dreams together.
   creation_info_headline: Details
-  next_random_dream: Next random dream
+  next_random_dream: Next random vision
   contact_name: Contact Name
   contact_alternative_name: Contact Name
   contact_email: Contact Email
@@ -419,17 +419,17 @@ en:
   creation_safetybaginfo_headline: Safetyfile info (Shown only to you,dreamer)
   turn_off_granting: Turn off granting
   enable_granting: Enable Granting
-  cocreator_application_guidetext: If you're interested in helping out with this dream,
-    you can add your email to a list which only the dream creator can see.
+  cocreator_application_guidetext: If you're interested in helping out with this vision,
+    you can add your email to a list which only the vision creator can see.
   cocreators_list_guidetext: 'These people want to co-create with you:'
-  images_headline: Dream images
+  images_headline: Vision images
   upload_headline: Upload Image
   upload_guidetext_html: Images must be smaller than 8 mb and be in jpg, png or gif
-    format. To make your Dream look really awesome, make sure your images are in landscape
+    format. To make your Vision look really awesome, make sure your images are in landscape
     format and larger than 1500x800 pixels.
   upload_button: Upload Image
   remove_image: Remove Image
-  back_to_dream: Back to dream
+  back_to_dream: Back to vision
   error_no_image_selected: No image selected
   fully_funded: Fully funded
   grants_recieved: Grants Received
@@ -452,10 +452,10 @@ en:
   delete_are_you_sure: Are you sure?
   are_you_sure: Are you sure?
   your_space: Your personal space
-  your_dream: Your dream
+  your_dream: Your vision
   youve_donated: You've donated
   coins_name: Coins
-  dreams_you_help_make: Dreams you made happen
+  dreams_you_help_make: Visions you made happen
   log_in: Log in
   sign_up: Sign Up
   forgot_password: Forgot your password?
@@ -480,20 +480,20 @@ en:
   reset_pass_wont_change: Your password won't change until you access the link above
     and create a new one.
   cant_send_less_then_one: One cannot send less than 1 coin
-  cant_send_more_than_one: You've already granted a coin to this dream. You cannot send more than one coin to the same dream.
-  dream_need_to_have_max_budget: Dream needs to have maximum budget. please contact
-    dreamer or dream guides
+  cant_send_more_than_one: You've already granted a coin to this vision. You cannot send more than one coin to the same vision.
+  dream_need_to_have_max_budget: Vision needs to have maximum budget. please contact
+    dreamer or vision guides
   security_more_grants: Security error cannot grant more then available grants. you
     tried gifting %{granted} grants. you have %{current_user_grants}. nice try.
-  security_cant_delete_dreams_you_dont_own: One cannot delete dreams he dont own -
+  security_cant_delete_dreams_you_dont_own: One cannot delete visions he dont own -
     hacker come join us
-  security_cant_tag_dreams_you_dont_own: Only guides can tag dreams. Come hack with us!
-  security_cant_edit_dreams_you_dont_own: One cannot delete dreams he dont own - hacker
+  security_cant_tag_dreams_you_dont_own: Only guides can tag visions. Come hack with us!
+  security_cant_edit_dreams_you_dont_own: One cannot delete visions he dont own - hacker
     come join us
   security_cant_change_images_you_dont_own: One cannot change image he dont own - hacker come join us
-  dream_not_found: The Dream you were looking for doesn't exist. Would you like to
-    create a new Dream?
-  join_dream: You were added to this dream swarm! If the dream owner accepts, you will get coins to participate in public granting.
+  dream_not_found: The Vision you were looking for doesn't exist. Would you like to
+    create a new Vision?
+  join_dream: You were added to this vision swarm!
   join_errors_login: You need to be logged in to add yourself to the swarm.
   join_already_sent: Nice! You've already sent your email to the creator.
   yes_text: Yesss
@@ -512,8 +512,8 @@ en:
     recent_updated: Recently Updated
     item: Dream
     modified_at: Modified at
-  new_dream_is_disabled: Creating new dreams is disabled at the moment. If you think
-    this is a mistake please contact bureau of dreams
+  new_dream_is_disabled: Creating new vision is disabled at the moment. If you think
+    this is a mistake please contact bureau of visions.
   dont_miss_out:
     banner: Only %{time} left to %{action}
     actions:
@@ -529,8 +529,8 @@ en:
   activerecord:
     models:
       camp:
-        one: Dream
-        other: Dreams
+        one: Vision
+        other: Visions
       user:
         one: User
         other: Users
@@ -572,7 +572,7 @@ en:
         email: Email
       camp:
         name: Name
-        creator: Dreamer
+        creator: Creator
         subtitle: Brief review
         contact_email: Email
         contact_name: Name
@@ -708,9 +708,9 @@ en:
         camp:
           attributes:
             name:
-              blank: Please select a name for your dream
+              blank: Please select a name for your vision
             subtitle:
-              blank: Please enter dream summary
+              blank: Please enter vision summary
             contact_email:
               blank: Please enter email
               too_short: Too short - minimum %{count} characters
