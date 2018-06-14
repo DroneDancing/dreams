@@ -20,6 +20,7 @@ Rails.application.routes.draw do
     patch 'tag', on: :member
   end
 
+  get '/guideview' => 'camps#guideview'
   get '/pages/:page' => 'pages#show'
   get '/me' => 'users#me'
   get '/howcanihelp' => 'howcanihelp#index'

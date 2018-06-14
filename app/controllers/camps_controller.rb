@@ -1,6 +1,6 @@
 class CampsController < ApplicationController
-  before_action :authenticate_user!, except: [:show, :index]
-  before_action :load_camp!, except: [:index, :new, :create]
+  before_action :authenticate_user!, except: [:show, :guideview, :index]
+  before_action :load_camp!, except: [:index, :guideview, :new, :create]
   before_action :enforce_delete_permission!, only: [:destroy, :archive]
   before_action :enforce_guide!, only: %i(tag)
   before_action :load_lang_detector, only: %i(show index)
@@ -25,6 +25,11 @@ class CampsController < ApplicationController
       format.html
       format.js
     end
+  end
+
+  def guideview
+    @camps = Camp.all
+    render :guideview
   end
 
   def new
