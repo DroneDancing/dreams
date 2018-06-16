@@ -518,7 +518,7 @@ en:
     banner: Only %{time} left to %{action}
     actions:
       submit_dream: complete your application and add friends to your swarm
-      safety_file: submit a safety file
+      safety_file: until granting opens
   time:
     am: am
     formats:
