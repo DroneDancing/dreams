@@ -7,7 +7,9 @@ users_by_ip.each do |user|
   time = Time.at(user.created_at).to_datetime
   if user.last_sign_in_ip == previous_ip
     if (time - previous_time).abs < 1200
-      user.update(:uid => -1)
+      # user.update(:uid => -1)
+      puts user.email
+      puts time.minus_with_coercion(previous_time)
     end
   end
   previous_time = time
@@ -25,4 +27,8 @@ Camp.all.each do |camp|
     fakers.push(user)
   end
 end
+
+Person.all.each do |person|
+  person_email = person.email
+  User.
 
