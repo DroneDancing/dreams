@@ -1,5 +1,5 @@
 common: &common
-  submit_dream: 2018-07-13t23:59:00+02:00
+  submit_dream: 2018-06-13t23:59:00+02:00
   safety_file: 2018-06-21t12:00:00+02:00
 
 development:
