@@ -32,3 +32,12 @@ Person.all.each do |person|
   person_email = person.email
   User.
 
+
+Camp.all.each do |camp|
+  min_real = camp.minbudget_realcurrency.to_i
+  max_real = camp.maxbudget_realcurrency.to_i
+  min = (min_real / 130).to_i
+  max = (max_real / 130).to_i
+  camp.update(minbudget: min)
+  camp.update(maxbudget: max)
+end
