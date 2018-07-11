@@ -179,12 +179,10 @@ h2 {
 }
 
 a {
-  cursor: pointer;
-  color: inherit;
-  text-decoration: none;
-  line-height: inherit;
-
-  img { border:none; }
+  color: #1A535C;
+  &:hover {
+      color: $cdd-red;
+    }
 }
 
 img {
